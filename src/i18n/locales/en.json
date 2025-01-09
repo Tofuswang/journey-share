@@ -59,6 +59,13 @@
     "placeholder": "Search by user type, context, or goal...",
     "button": "Search"
   },
+  "chart": {
+    "title": "Emotional Journey Map",
+    "step": "Step",
+    "emotionScore": "Emotion Score",
+    "emotion": "Emotion",
+    "emotionIndex": "Emotion Index"
+  },
   "about": {
     "backToHome": "Back to Home",
     "title": "About This Project",
@@ -103,134 +110,9 @@
       "description": "This is an open source project. Feel free to contact me if you have any questions or suggestions:"
     }
   },
-  "usageInstructions": {
-    "title": "Instructions: How to Record Your Journey Map",
-    "steps": {
-      "1": {
-        "title": "1. Have a Conversation",
-        "items": [
-          "First, have a natural conversation with ChatGPT (or other LLMs) to describe the user experience you want to share.",
-          "During the conversation, try to recall each key step and understand what information can be filled into the journey map."
-        ]
-      },
-      "2": {
-        "title": "2. Summarize the Conversation",
-        "description": "When you feel you've described enough, use the following prompt template to structure your conversation:"
-      },
-      "3": {
-        "title": "3. Fill in the Form",
-        "items": [
-          "Use the output from GPT to fill in the form step by step.",
-          "Ensure each field is complete and clear for future analysis or use."
-        ]
-      }
-    }
-  },
-  "promptTemplate": {
-    "title": "Prompt Template",
-    "copyAll": "Copy All",
-    "copied": "Copied!",
-    "content": {
-      "intro": "I want to record a user journey map. Please help me generate the corresponding form content based on the following questions:",
-      "basicInfo": {
-        "title": "Basic Information",
-        "authorName": "1. Author Name (Optional): ",
-        "userType": "2. User Type (e.g., New User, Experienced User): ",
-        "context": "3. Context Description (e.g., First Time Using Product, Encountering Issues): ",
-        "goal": "4. User Goal (e.g., Complete Specific Task, Solve Problem): "
-      },
-      "journeySteps": {
-        "title": "Journey Steps",
-        "steps": {
-          "trigger": "Step 1: Trigger Event",
-          "interaction": "Step 2: Initial Interaction",
-          "trust": "Step 3: Building Trust",
-          "turning": "Step 4: Turning Point",
-          "conclusion": "Step 5: Conclusion",
-          "aftermath": "Step 6: Aftermath"
-        },
-        "fields": {
-          "userAction": "1. User Action: ",
-          "description": "2. Description (Specific Circumstances): ",
-          "systemResponse": "3. System/Product Response: ",
-          "painPoint": "4. Pain Points or Opportunities (Challenges or Areas for Improvement): ",
-          "emotionScore": "5. Emotion Score (1-10, Number Only): ",
-          "emotion": "6. Emotion Description (User's Current Mood): "
-        }
-      },
-      "footer": "Please summarize my answers and generate a complete form content that I can directly fill into the system."
-    }
-  },
-  "journeyForm": {
-    "title": "Add Journey Map",
-    "error": {
-      "save": "Failed to save journey map. Please try again."
-    },
-    "basicInfo": {
-      "title": "Basic Information",
-      "authorName": {
-        "label": "Author Name"
-      },
-      "userType": {
-        "label": "User Type",
-        "placeholder": "e.g., New User, Experienced User"
-      },
-      "context": {
-        "label": "Context",
-        "placeholder": "Describe the situation or scenario"
-      },
-      "goal": {
-        "label": "Goal",
-        "placeholder": "What did you want to achieve?"
-      }
-    },
-    "stepForm": {
-      "userAction": "User Action",
-      "description": "Description",
-      "systemResponse": "System Response",
-      "painPoint": "Pain Points",
-      "emotionScore": "Emotion Score (1-10)",
-      "emotion": "Emotion Description"
-    },
-    "buttons": {
-      "cancel": "Cancel",
-      "submit": "Submit Journey Map"
-    }
-  },
-  "journeyList": {
-    "loading": "Loading journey maps...",
-    "empty": "No journey maps yet. Be the first to share!",
-    "noResults": "No results found for your search.",
-    "error": {
-      "fetch": "Failed to load data. Please refresh the page."
-    },
-    "download": "Download",
-    "userType": "User Type",
-    "author": "Author",
-    "anonymous": "Anonymous",
-    "createdAt": "Created At",
-    "context": "Context",
-    "goal": "Goal",
-    "fields": {
-      "stepName": "Step",
-      "userAction": "User Action",
-      "description": "Description",
-      "systemResponse": "System Response",
-      "painPoint": "Pain Point",
-      "emotionScore": "Emotion Score",
-      "emotion": "Emotion"
-    },
-    "steps": {
-      "trigger": "Trigger Event",
-      "interaction": "Initial Interaction",
-      "trust": "Building Trust",
-      "turning": "Turning Point",
-      "conclusion": "Conclusion",
-      "aftermath": "Aftermath"
-    }
-  },
   "language": {
     "en": "English",
-    "zh": "中文"
+    "zh": "中文",
+    "select": "Select Language"
   }
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Globe } from 'lucide-react';
-import { ChevronDown } from 'lucide-react';
+import { Globe, ChevronDown } from 'lucide-react';
 
 export function LanguageSwitcher() {
   const { i18n, t } = useTranslation();
@@ -24,6 +23,10 @@ export function LanguageSwitcher() {
     setIsOpen(false);
   };
 
+  const getCurrentLanguageLabel = () => {
+    return t(`language.${i18n.language}`);
+  };
+
   return (
     <div className="relative" ref={dropdownRef}>
       <button
@@ -31,7 +34,7 @@ export function LanguageSwitcher() {
         className="h-[40px] px-4 flex items-center gap-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
       >
         <Globe className="w-4 h-4" />
-        <span>{t(`language.${i18n.language}`)}</span>
+        <span>{getCurrentLanguageLabel()}</span>
         <ChevronDown className="w-4 h-4" />
       </button>
 
