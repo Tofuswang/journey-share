@@ -114,5 +114,131 @@
     "en": "English",
     "zh": "中文",
     "select": "選擇語言"
+  },
+  "usageInstructions": {
+    "title": "使用說明：如何紀錄使用者旅程地圖",
+    "steps": {
+      "1": {
+        "title": "1. 進行對話",
+        "items": [
+          "先與 ChatGPT（或其他大語言模型）進行自然對話，描述你想要分享的使用者體驗。",
+          "在對話過程中，嘗試回憶每個關鍵步驟，並大致了解哪些資訊可以填寫到旅程地圖中。"
+        ]
+      },
+      "2": {
+        "title": "2. 總結對話",
+        "description": "當你覺得描述得差不多時，使用以下 Prompt 模板，將對話內容結構化總結："
+      },
+      "3": {
+        "title": "3. 輸入表單",
+        "items": [
+          "使用 GPT 輸出的結果，逐步將總結內容填入表單。",
+          "確保每個欄位的內容完整且清晰，以便進行後續分析或使用。"
+        ]
+      }
+    }
+  },
+  "promptTemplate": {
+    "title": "Prompt 模板",
+    "copied": "已複製！",
+    "copyAll": "複製全文",
+    "content": {
+      "intro": "我想紀錄一個使用者旅程地圖，請根據以下問題協助我生成對應的表單內容：",
+      "basicInfo": {
+        "title": "基本資訊",
+        "authorName": "1. 作者名稱（選填）：",
+        "userType": "2. 使用者類型（例如：新手用戶、資深用戶）：",
+        "context": "3. 情境描述（例如：首次使用產品、遇到問題時）：",
+        "goal": "4. 使用者的目標（例如：完成特定任務、解決問題）："
+      },
+      "journeySteps": {
+        "title": "旅程步驟",
+        "steps": {
+          "trigger": "Step 1: 觸發事件",
+          "interaction": "Step 2: 初始互動",
+          "trust": "Step 3: 建立信任",
+          "turning": "Step 4: 轉折點",
+          "conclusion": "Step 5: 結論",
+          "aftermath": "Step 6: 後續影響"
+        },
+        "fields": {
+          "userAction": "1. 使用者行為：",
+          "description": "2. 描述（該事件的具體情況）：",
+          "systemResponse": "3. 系統/產品回應：",
+          "painPoint": "4. 痛點或機會（使用者面臨的挑戰或可改善的地方）：",
+          "emotionScore": "5. 情緒指數（1-10，數字即可）：",
+          "emotion": "6. 情緒描述（使用者當下的心情）："
+        }
+      },
+      "footer": "請根據我的回答總結並生成一份完整的表單內容，讓我能直接填寫到系統中。"
+    }
+  },
+  "journeyForm": {
+    "title": "新增旅程地圖",
+    "basicInfo": {
+      "title": "基本資訊",
+      "authorName": {
+        "label": "作者名稱（選填）"
+      },
+      "userType": {
+        "label": "使用者類型",
+        "placeholder": "例如：新手用戶、資深用戶"
+      },
+      "context": {
+        "label": "情境描述",
+        "placeholder": "例如：首次使用產品、遇到問題時"
+      },
+      "goal": {
+        "label": "使用者的目標",
+        "placeholder": "例如：完成特定任務、解決問題"
+      }
+    },
+    "stepForm": {
+      "userAction": "使用者行為",
+      "description": "描述",
+      "systemResponse": "系統/產品回應",
+      "painPoint": "痛點或改善機會",
+      "emotionScore": "情緒指數 (1-10)",
+      "emotion": "情緒描述"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "submit": "提交旅程地圖"
+    },
+    "error": {
+      "save": "儲存失敗，請稍後再試"
+    }
+  },
+  "journeyList": {
+    "loading": "載入中...",
+    "empty": "目前還沒有旅程地圖，快來分享你的體驗吧！",
+    "noResults": "找不到符合搜尋條件的旅程地圖",
+    "error": {
+      "fetch": "載入資料失敗，請重新整理頁面"
+    },
+    "userType": "使用者類型",
+    "author": "作者",
+    "createdAt": "建立時間",
+    "context": "情境描述",
+    "goal": "使用者目標",
+    "download": "下載 CSV",
+    "anonymous": "匿名",
+    "fields": {
+      "stepName": "步驟名稱",
+      "userAction": "使用者行為",
+      "description": "描述",
+      "systemResponse": "系統/產品回應",
+      "painPoint": "痛點或機會",
+      "emotionScore": "情緒指數",
+      "emotion": "情緒"
+    },
+    "steps": {
+      "trigger": "觸發事件",
+      "interaction": "初始互動",
+      "trust": "建立信任",
+      "turning": "轉折點",
+      "conclusion": "結論",
+      "aftermath": "後續影響"
+    }
   }
 }

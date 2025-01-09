@@ -114,5 +114,131 @@
     "en": "English",
     "zh": "中文",
     "select": "Select Language"
+  },
+  "usageInstructions": {
+    "title": "Usage Instructions: How to Record a User Journey Map",
+    "steps": {
+      "1": {
+        "title": "1. Have a Conversation",
+        "items": [
+          "Start by having a natural conversation with ChatGPT (or other LLMs) to describe the user experience you want to share.",
+          "During the conversation, try to recall each key step and understand what information can be filled in the journey map."
+        ]
+      },
+      "2": {
+        "title": "2. Summarize the Conversation",
+        "description": "When you feel you've described enough, use the following Prompt template to structure your conversation content:"
+      },
+      "3": {
+        "title": "3. Fill in the Form",
+        "items": [
+          "Use the output from GPT to gradually fill in the form content.",
+          "Ensure each field is complete and clear for subsequent analysis or use."
+        ]
+      }
+    }
+  },
+  "promptTemplate": {
+    "title": "Prompt Template",
+    "copied": "Copied!",
+    "copyAll": "Copy All",
+    "content": {
+      "intro": "I want to record a user journey map. Please help me generate the corresponding form content based on the following questions:",
+      "basicInfo": {
+        "title": "Basic Information",
+        "authorName": "1. Author Name (optional):",
+        "userType": "2. User Type (e.g., novice user, experienced user):",
+        "context": "3. Context Description (e.g., first time using product, encountering issues):",
+        "goal": "4. User Goal (e.g., completing specific task, solving problem):"
+      },
+      "journeySteps": {
+        "title": "Journey Steps",
+        "steps": {
+          "trigger": "Step 1: Trigger Event",
+          "interaction": "Step 2: Initial Interaction",
+          "trust": "Step 3: Building Trust",
+          "turning": "Step 4: Turning Point",
+          "conclusion": "Step 5: Conclusion",
+          "aftermath": "Step 6: Aftermath"
+        },
+        "fields": {
+          "userAction": "1. User Action:",
+          "description": "2. Description (specific details of the event):",
+          "systemResponse": "3. System/Product Response:",
+          "painPoint": "4. Pain Points or Opportunities (challenges faced or areas for improvement):",
+          "emotionScore": "5. Emotion Score (1-10, number only):",
+          "emotion": "6. Emotion Description (user's current mood):"
+        }
+      },
+      "footer": "Please summarize my responses and generate a complete form content that I can directly fill into the system."
+    }
+  },
+  "journeyForm": {
+    "title": "Add Journey Map",
+    "basicInfo": {
+      "title": "Basic Information",
+      "authorName": {
+        "label": "Author Name (optional)"
+      },
+      "userType": {
+        "label": "User Type",
+        "placeholder": "e.g., novice user, experienced user"
+      },
+      "context": {
+        "label": "Context Description",
+        "placeholder": "e.g., first time using product, encountering issues"
+      },
+      "goal": {
+        "label": "User Goal",
+        "placeholder": "e.g., completing specific task, solving problem"
+      }
+    },
+    "stepForm": {
+      "userAction": "User Action",
+      "description": "Description",
+      "systemResponse": "System/Product Response",
+      "painPoint": "Pain Points or Opportunities",
+      "emotionScore": "Emotion Score (1-10)",
+      "emotion": "Emotion Description"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "submit": "Submit Journey Map"
+    },
+    "error": {
+      "save": "Failed to save, please try again later"
+    }
+  },
+  "journeyList": {
+    "loading": "Loading...",
+    "empty": "No journey maps yet, be the first to share your experience!",
+    "noResults": "No journey maps found matching your search criteria",
+    "error": {
+      "fetch": "Failed to load data, please refresh the page"
+    },
+    "userType": "User Type",
+    "author": "Author",
+    "createdAt": "Created At",
+    "context": "Context",
+    "goal": "User Goal",
+    "download": "Download CSV",
+    "anonymous": "Anonymous",
+    "fields": {
+      "stepName": "Step Name",
+      "userAction": "User Action",
+      "description": "Description",
+      "systemResponse": "System/Product Response",
+      "painPoint": "Pain Points or Opportunities",
+      "emotionScore": "Emotion Score",
+      "emotion": "Emotion"
+    },
+    "steps": {
+      "trigger": "Trigger Event",
+      "interaction": "Initial Interaction",
+      "trust": "Building Trust",
+      "turning": "Turning Point",
+      "conclusion": "Conclusion",
+      "aftermath": "Aftermath"
+    }
   }
 }
