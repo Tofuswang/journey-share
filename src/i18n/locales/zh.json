@@ -1,0 +1,236 @@
+{
+  "site": {
+    "title": "共享旅程小幫手",
+    "subtitle": "分享你的使用者體驗"
+  },
+  "header": {
+    "about": "關於這個專案",
+    "addJourney": "新增旅程地圖"
+  },
+  "footer": {
+    "terms": "使用守則",
+    "privacy": "隱私政策",
+    "disclaimer": "免責聲明",
+    "copyright": "© {{year}} 共享旅程小幫手 - 分享你的使用者體驗",
+    "developer": "開發者",
+    "license": "本網站內容採用",
+    "contact": "聯絡我們"
+  },
+  "home": {
+    "title": "分享你的使用者旅程地圖 🗺️",
+    "description": "這是一個協助記錄和分析使用者體驗的工具，通過六個關鍵階段來追蹤使用者的情緒變化和經歷。",
+    "goals": {
+      "title": "透過這個工具，我們希望能夠：",
+      "items": [
+        "幫助使用者整理和理解自己的體驗歷程",
+        "為產品設計和服務改善提供真實的案例參考",
+        "分析使用者行為模式和情緒變化",
+        "促進經驗分享和交流"
+      ]
+    }
+  },
+  "howToStart": {
+    "title": "如何開始",
+    "steps": {
+      "1": {
+        "title": "回憶並整理經歷",
+        "description": "想一想你想要分享的使用者體驗，可以是產品使用、服務體驗或是生活經歷。"
+      },
+      "2": {
+        "title": "與 ChatGPT 對話",
+        "description": "使用建議的 GPT Prompt 與 ChatGPT 進行自然對話，幫助理清思路並結構化你的故事內容。"
+      },
+      "3": {
+        "title": "複製並總結內容",
+        "description": "將 ChatGPT 生成的結構化內容複製到表單，並按照六個關鍵階段進行調整和補充。"
+      },
+      "4": {
+        "title": "提交旅程地圖",
+        "description": "確認表單內容完整後，點擊「提交旅程地圖」，即可將你的經歷加入我們的資料庫。"
+      },
+      "5": {
+        "title": "下載並分享",
+        "description": "下載生成的 CSV 文件，或與朋友分享這段經歷，幫助更多人了解使用者體驗。"
+      }
+    },
+    "footer": "感謝每一位分享使用者體驗的貢獻者！你們的分享不僅幫助了其他使用者，也為產品改善提供了寶貴的參考。"
+  },
+  "search": {
+    "placeholder": "搜尋使用者類型、情境或目標...",
+    "button": "搜尋"
+  },
+  "about": {
+    "backToHome": "返回首頁",
+    "title": "關於這個專案",
+    "projectGoal": {
+      "title": "專案目標",
+      "description": "這個專案旨在幫助使用者記錄和分享他們的體驗，為產品改進和使用者體驗研究提供寶貴的見解。"
+    },
+    "coreValues": {
+      "title": "核心價值",
+      "openData": {
+        "title": "開放資料：",
+        "description": "所有分享的體驗都是開放資料，幫助更多人了解使用者行為模式。"
+      },
+      "community": {
+        "title": "社群驅動：",
+        "description": "目前已有 {{count}} 個旅程地圖被分享，每一個都對我們的集體理解有所貢獻。"
+      },
+      "empathy": {
+        "title": "同理心優先：",
+        "description": "通過分享經驗，我們幫助他人避免類似的挑戰，並改進產品設計。"
+      }
+    },
+    "contributors": {
+      "title": "貢獻者",
+      "stats": {
+        "journeys": "旅程地圖",
+        "contributors": "貢獻者",
+        "license": "授權條款"
+      },
+      "recent": {
+        "title": "最近的貢獻",
+        "by": "作者：{{author}}"
+      },
+      "callToAction": {
+        "text": "想要參與貢獻？歡迎到",
+        "or": "或是",
+        "contact": "聯絡我們"
+      }
+    },
+    "developer": {
+      "title": "關於開發者",
+      "description": "這是一個開源專案，如果你有任何問題或建議，歡迎聯絡我："
+    }
+  },
+  "usageInstructions": {
+    "title": "使用說明：如何紀錄使用者旅程地圖",
+    "steps": {
+      "1": {
+        "title": "1. 進行對話",
+        "items": [
+          "先與 ChatGPT（或其他大語言模型）進行自然對話，描述你想要分享的使用者體驗。",
+          "在對話過程中，嘗試回憶每個關鍵步驟，並大致了解哪些資訊可以填寫到旅程地圖中。"
+        ]
+      },
+      "2": {
+        "title": "2. 總結對話",
+        "description": "當你覺得描述得差不多時，使用以下 Prompt 模板，將對話內容結構化總結："
+      },
+      "3": {
+        "title": "3. 輸入表單",
+        "items": [
+          "使用 GPT 輸出的結果，逐步將總結內容填入表單。",
+          "確保每個欄位的內容完整且清晰，以便進行後續分析或使用。"
+        ]
+      }
+    }
+  },
+  "promptTemplate": {
+    "title": "Prompt 模板",
+    "copyAll": "複製全文",
+    "copied": "已複製！",
+    "content": {
+      "intro": "我想紀錄一個使用者旅程地圖，請根據以下問題協助我生成對應的表單內容：",
+      "basicInfo": {
+        "title": "基本資訊",
+        "authorName": "1. 作者名稱（選填）：",
+        "userType": "2. 使用者類型（例如：新手用戶、資深用戶）：",
+        "context": "3. 情境描述（例如：首次使用產品、遇到問題時）：",
+        "goal": "4. 使用者的目標（例如：完成特定任務、解決問題）："
+      },
+      "journeySteps": {
+        "title": "旅程步驟",
+        "steps": {
+          "trigger": "Step 1: 觸發事件",
+          "interaction": "Step 2: 初始互動",
+          "trust": "Step 3: 建立信任",
+          "turning": "Step 4: 轉折點",
+          "conclusion": "Step 5: 結論",
+          "aftermath": "Step 6: 後續影響"
+        },
+        "fields": {
+          "userAction": "1. 使用者行為：",
+          "description": "2. 描述（該事件的具體情況）：",
+          "systemResponse": "3. 系統/產品回應：",
+          "painPoint": "4. 痛點或機會（使用者面臨的挑戰或可改善的地方）：",
+          "emotionScore": "5. 情緒指數（1-10，數字即可）：",
+          "emotion": "6. 情緒描述（使用者當下的心情）："
+        }
+      },
+      "footer": "請根據我的回答總結並生成一份完整的表單內容，讓我能直接填寫到系統中。"
+    }
+  },
+  "journeyForm": {
+    "title": "新增旅程地圖",
+    "error": {
+      "save": "儲存旅程地圖失敗，請重試。"
+    },
+    "basicInfo": {
+      "title": "基本資訊",
+      "authorName": {
+        "label": "作者名稱"
+      },
+      "userType": {
+        "label": "使用者類型",
+        "placeholder": "例如：新手用戶、資深用戶"
+      },
+      "context": {
+        "label": "情境",
+        "placeholder": "描述當時的情況或場景"
+      },
+      "goal": {
+        "label": "目標",
+        "placeholder": "你想要達成什麼？"
+      }
+    },
+    "stepForm": {
+      "userAction": "使用者行為",
+      "description": "描述",
+      "systemResponse": "系統回應",
+      "painPoint": "痛點",
+      "emotionScore": "情緒指數 (1-10)",
+      "emotion": "情緒描述"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "submit": "提交旅程地圖"
+    }
+  },
+  "journeyList": {
+    "loading": "正在載入旅程地圖...",
+    "empty": "目前還沒有旅程地圖。成為第一個分享的人！",
+    "noResults": "找不到符合搜尋條件的結果。",
+    "error": {
+      "fetch": "載入資料失敗，請重新整理頁面"
+    },
+    "download": "下載",
+    "userType": "使用者類型",
+    "author": "作者",
+    "anonymous": "匿名",
+    "createdAt": "建立時間",
+    "context": "情境",
+    "goal": "目標",
+    "fields": {
+      "stepName": "步驟",
+      "userAction": "使用者行為",
+      "description": "描述",
+      "systemResponse": "系統回應",
+      "painPoint": "痛點",
+      "emotionScore": "情緒指數",
+      "emotion": "情緒"
+    },
+    "steps": {
+      "trigger": "觸發事件",
+      "interaction": "初始互動",
+      "trust": "建立信任",
+      "turning": "轉折點",
+      "conclusion": "結論",
+      "aftermath": "後續影響"
+    }
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  }
+}
